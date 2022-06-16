@@ -24,6 +24,7 @@ Version 2 updates include:
 a. See the WAAAG processing options to further accelerate processing time (optional)
 4. Open MATLAB, run WAAAG, and follow any input prompts (number of required inputs depends on processing scheme)
 5. You will now find the following in a new folder:
+
   a. The folder will be named in the first line of the Processing_Selections spreadsheet
   b. WAAAG_data.mat – all outputs, selections, and inputs from running WAAAG
   c. Ave_Rotations.gcd – and any other GCD files depending on the conditions selected (AFO_Ave_Rotations, Last_ Ave_Rotations, Extra_ Ave_Rotations). These are ready for input into Polygon.
