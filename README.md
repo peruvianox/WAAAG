@@ -10,11 +10,11 @@ Version 2 updates include:
 - Temporal spatial parameters now calculated for every gait cycle
 - Use of an excel file to select various input parameters
 - New temporal-spatial norms
--   standard deviations now used in the temporal-spatial figure
+  - standard deviations now used in the temporal-spatial figure
 - Score Sara functionality
 - Ankle dorsi/plantar flexion and knee AB/AD average rotation
--   currently commented out due to plotting discrepancies in polygon (plots thicker than other lines)
--   uncomment the following lines to export ankle dorsi/plantarflexion and knee AB/AD average rots
+  - currently commented out due to plotting discrepancies in polygon (plots thicker than other lines)
+  - uncomment the following lines to export ankle dorsi/plantarflexion and knee AB/AD average rots
 
 
 ## Instructions
@@ -24,14 +24,14 @@ Version 2 updates include:
 a. See the WAAAG processing options to further accelerate processing time (optional)
 4. Open MATLAB, run WAAAG, and follow any input prompts (number of required inputs depends on processing scheme)
 5. You will now find the following in a new folder:
-a. The folder will be named in the first line of the Processing_Selections spreadsheet
-b. WAAAG_data.mat – all outputs, selections, and inputs from running WAAAG
-a. Ave_Rotations.gcd – and any other GCD files depending on the conditions selected (AFO_Ave_Rotations, Last_ Ave_Rotations, Extra_ Ave_Rotations). These are ready for input into Polygon.
-b. GaitMeasures.png – a saved plot of the temporal spatial parameters, referenced to normal
-c. GDI-MAP.png – a saved plot of the GDI and MAP scores. See details below
-d. WAAAG.xlsx – this contains descriptions of the rep trial, rep cycles, type of input, values for all the gait measures metrics, Ranking of trials and cycles, and the average rotations for each condition. Be sure to check out the multiple sheets.
-e. Optional outputs
-i. Kinematic Plots (png file) – plot of gait-cycle parsed kinematics depending on input selections. See the Processing Selections spreadsheet for more info
+  a. The folder will be named in the first line of the Processing_Selections spreadsheet
+  b. WAAAG_data.mat – all outputs, selections, and inputs from running WAAAG
+  c. Ave_Rotations.gcd – and any other GCD files depending on the conditions selected (AFO_Ave_Rotations, Last_ Ave_Rotations, Extra_ Ave_Rotations). These are ready for input into Polygon.
+  d. GaitMeasures.png – a saved plot of the temporal spatial parameters, referenced to normal
+  e. GDI-MAP.png – a saved plot of the GDI and MAP scores. See details below
+  f. WAAAG.xlsx – this contains descriptions of the rep trial, rep cycles, type of input, values for all the gait measures metrics, Ranking of trials and cycles, and the average rotations for each condition. Be sure to check out the multiple sheets.
+  g. Optional outputs
+    1. Kinematic Plots (png file) – plot of gait-cycle parsed kinematics depending on input selections. See the Processing Selections spreadsheet for more info
 
 
 ## Detailed Description of Updates
@@ -47,8 +47,13 @@ ProcessC3D functionality is a totally new data processing software, compared to 
 • raw and parsed kinematic data
 • data saved in structure format for simple navigation
 • Can also be used for normal database processing or compiling many C3Ds together
+
 Structure organization makes it easy to find the data you need.
+
+
 Aggregate data shows metrics from all trails – rep trial, rep cycles, GDI scores, ensemble averages, and settings.
+
+
 Example of new temporal-spatial data structure. All temporal spatial measures in WAAAG tables are computed as the average of the temporal spatial measures from every gait cycle from each trial imported into WAAAG.
 
 
