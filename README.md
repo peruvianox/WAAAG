@@ -39,7 +39,7 @@ i. Kinematic Plots (png file) – plot of gait-cycle parsed kinematics depending
 By defining processing selections and inputs prior to running WAAAG, processing time can be shortened and automated. Use the series of drop downs and blanks to define subject parameters, kinematics data processing selections, plotting options, and WAAAG conditions. Below is an example.
 Center for Gait and Movement Analysis April 2019 Ricky Pimentel
 
-## ProcessC3D info
+### ProcessC3D info
 ProcessC3D functionality is a totally new data processing software, compared to WAAAG V1 or GAMS (previous iterations of this software). This upgrade includes many additional features including:
 • Ability to plot kinematic curves if desired
 • Display of current trial being loaded – to identify the trial with missed gait events or bad data
@@ -52,12 +52,12 @@ Aggregate data shows metrics from all trails – rep trial, rep cycles, GDI scor
 Example of new temporal-spatial data structure. All temporal spatial measures in WAAAG tables are computed as the average of the temporal spatial measures from every gait cycle from each trial imported into WAAAG.
 
 
-## Plotting Kinematics
+### Plotting Kinematics
 The new processing also allows for automated export of kinematic plots. These can be customized to plot the representative cycle or ensemble average curve. Also one can add curves from all gait cycles from all trials (below) or show a band of the standard deviation around the average (next page). Average rotations can also be plotted.
 
 Example kinematic graphs with the rep cycle in the solid line, average rotations as the horizontal lines, and a band of the mean with one standard deviation above and below.
 
-## New Temporal-Spatial Norms
+### New Temporal-Spatial Norms
 Standard deviations for all temporal-spatial parameters were needed for inclusion into the the bands within the temporal spatial parameters plots. These metrics were calculated from CGMAs database of typical walkers and used in place of the old GAMS measures, whose origin is uncertain. Below is a series of plots comparing the old (blue) and new (red) temporal spatial measures for each age group. The general trends are the same, however the addition of temporal-spatial measures provides valuable info.
 
 The benefit of the new temporal-spatial norms is that the standard deviations can be used to set acceptable ranges for each measure, rather than relying on the percentage-based values in WAAAG V1.1. The ‘Ok’ and ‘Poor’ ranges were respectively set at 90 and 75% of the target. Now they are set at 1 and 3 standard deviations of the normal group from the norm average.
