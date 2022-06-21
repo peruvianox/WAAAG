@@ -55,7 +55,7 @@ Aggregate data shows metrics from all trails – rep trial, rep cycles, GDI scor
 ![Trials Data structure](/img/TrialsData.jpg)
 
 Example of new temporal-spatial data structure. All temporal spatial measures in WAAAG tables are computed as the average of the temporal spatial measures from every gait cycle from each trial imported into WAAAG.
-![Temporal Spatial Gait Results for a sample walking trial](img/TempSpatResults.jpg)
+![Temporal Spatial Gait Results for a sample walking trial](/img/TempSpatResults.jpg)
 
 ### Plotting Kinematics
 The new processing also allows for automated export of kinematic plots. These can be customized to plot the representative cycle or ensemble average curve. Also one can add curves from all gait cycles from all trials (below) or show a band of the standard deviation around the average (next page). Average rotations can also be plotted.
@@ -66,7 +66,7 @@ Example kinematic graphs with the rep cycle in the solid line, average rotations
 
 ### New Temporal-Spatial Norms
 Standard deviations for all temporal-spatial parameters were needed for inclusion into the the bands within the temporal spatial parameters plots. These metrics were calculated from CGMAs database of typical walkers and used in place of the old GAMS measures, whose origin is uncertain. Below is a series of plots comparing the old (blue) and new (red) temporal spatial measures for each age group. The general trends are the same, however the addition of temporal-spatial measures provides valuable info.
-![Temporal Spatial Gait Norms](img/TempSpatNorms.jpg)
+![Temporal Spatial Gait Norms](/img/TempSpatNorms.jpg)
 
 The benefit of the new temporal-spatial norms is that the standard deviations can be used to set acceptable ranges for each measure, rather than relying on the percentage-based values in WAAAG V1.1. The ‘Ok’ and ‘Poor’ ranges were respectively set at 90 and 75% of the target. Now they are set at 1 and 3 standard deviations of the normal group from the norm average.
 ![New output with temporal spatial gait norms](/img/OverallResults.jpg)
