@@ -69,4 +69,4 @@ Standard deviations for all temporal-spatial parameters were needed for inclusio
 ![Temporal Spatial Gait Norms](/img/TempSpatNorms.jpg)
 
 The benefit of the new temporal-spatial norms is that the standard deviations can be used to set acceptable ranges for each measure, rather than relying on the percentage-based values in WAAAG V1.1. The ‘Ok’ and ‘Poor’ ranges were respectively set at 90 and 75% of the target. Now they are set at 1 and 3 standard deviations of the normal group from the norm average.
-![New output with temporal spatial gait norms](/img/OverallResults.jpg)
+![New output with temporal spatial gait norms](/img/OverallResults.JPG)
