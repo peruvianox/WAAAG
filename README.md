@@ -1,6 +1,6 @@
 # WAAAG
 Walking Ability-At-A-Glance Version 2
-<img src="img/WAAAGLogo.png" width="250">
+<img src="img/WAAAGLogo.png" width="250" align="right">
 
 ## Description
 Walking Ability At A Glance (WAAAG) calculates and displays various measures of a person’s gait pattern. WAAAG is used to determine the representative gait cycle, to calculate average rotations, to generate plots and tables of temporal-spatial walking parameters and GDI, and to obtain the average kinematic rotations. WAAAG can process up to 4 conditions simultaneously: Current, AFO, Last, and Extra slots, all of which can be renamed for the graphical and table outputs. WAAAG can be used for temporal spatial analysis among any/all conditions (heel & toe markers only). WAAAG data is automatically saved so the computations can always be double checked, and the data can be used elsewhere.
